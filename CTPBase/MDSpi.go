@@ -3,7 +3,7 @@ package CTPBase
 import (
 	"github.com/li-wancai/EQSSEHub"
 
-	"github.com/li-wancai/EQDBLinks/DBRedis"
+	"github.com/li-wancai/EQDBTools/DBRedis"
 
 	"github.com/li-wancai/EQCTPQH/Thost"
 

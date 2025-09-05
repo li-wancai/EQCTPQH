@@ -3,10 +3,10 @@ module github.com/li-wancai/EQCTPQH
 go 1.25.0
 
 require (
-	github.com/li-wancai/EQDBLinks v1.0.0
-	github.com/li-wancai/EQSSEHub v1.0.0
-	github.com/li-wancai/EQUseApi v1.0.0
-	github.com/li-wancai/GoScripts v1.0.1
+	github.com/li-wancai/EQDBTools v1.0.3
+	github.com/li-wancai/EQSSEHub v1.0.3
+	github.com/li-wancai/EQUseApi v1.0.3
+	github.com/li-wancai/GoScripts v1.0.3
 	github.com/li-wancai/logger v1.0.0
 	github.com/pseudocodes/go2ctp v0.0.0-20250814045625-a3cf4b4e1fa7
 )

@@ -58,6 +58,7 @@ func (s *MDSpiN) OneCodeDoMDWork(ch chan interface{}, InstrumentID string) {
 			/////////////////////////////////////////////////////////////////////
 			jsdt := data.(map[string]interface{})  // 格式化数据
 			jsdt["TradingDay"] = s.Cfg.TradingDay  // 更新交易日
+			jsdt, _ = Formulae.FilterCTPData(jsdt) // 过滤数据
 			rst := Formulae.DictToStrJson(jsdt)    // 格式化数据
 			s.RdSt.HSet("最新行情", InstrumentID, rst) // 保存到Redis
 			s.RdSt.PubMsg(InstrumentID, rst)       // 通过Redis发布实时行情数据

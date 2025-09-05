@@ -1,9 +1,10 @@
 package CTPBase
 
 import (
-	"EarnQuant/GoScripts/EQUseApi"
 	"fmt"
 	"strings"
+
+	"github.com/li-wancai/EQUseApi"
 
 	"github.com/li-wancai/GoScripts/Formulae"
 
